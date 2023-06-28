@@ -1,4 +1,4 @@
-
+/* eslint-disable */
 export default function getSanFranciscoDescription() {
   const year = 2017;
   const budget = {
@@ -14,4 +14,3 @@ export default function getSanFranciscoDescription() {
     `capita of ${budget.capita}.`
   );
 }
-

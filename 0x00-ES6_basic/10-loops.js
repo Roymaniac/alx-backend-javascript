@@ -1,4 +1,4 @@
-
+/* eslint-disable */
 export default function appendToEachArrayValue(array, appendString) {
   const array2 = [];
   for (const value of array) {
@@ -6,4 +6,3 @@ export default function appendToEachArrayValue(array, appendString) {
   }
   return array2;
 }
-

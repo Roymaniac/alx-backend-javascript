@@ -1,4 +1,3 @@
-
 export default function createIteratorObject(report) {
   const emps = [];
   // eslint-disable-next-line
@@ -11,4 +10,3 @@ export default function createIteratorObject(report) {
 
   return emps;
 }
-
