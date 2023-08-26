@@ -1,4 +1,4 @@
-import readDatabase from "../utils"
+import readDatabase from "../utils";
 
 class StudentsController {
     static getAllStudents(req, res, DATABASE){
@@ -41,4 +41,4 @@ class StudentsController {
     }
 }
 
-export default StudentsController
+export default StudentsController;
