@@ -1,11 +1,11 @@
 const http = require('http');
+
 const port = 1245;
 
 const args = process.argv.slice(2);
 const countStudents = require('./3-read_file_async');
 
 const DATABASE = args[0];
-
 
 const app = http.createServer(async (req, res) => {
   res.statusCode = 200;
@@ -29,7 +29,7 @@ const app = http.createServer(async (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server running on ${port}`);
+  console.log(`Server running on ${port}`);
 });
 
 module.exports = app;
